@@ -1,0 +1,73 @@
+.nav-container{
+    border-right: 1px solid #F3F3F7;
+    height: 100vh;
+    max-width: 256px;
+    background: white   ;
+}
+.dotrading{
+    color:  #5F00D9;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px; 
+}
+.top-container{
+    height: 200px;
+    max-width:256px;
+    display: flex;
+    
+    flex-direction: column;;
+    align-items: flex-start;
+    padding: 6px 10px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    max-width: 230px;
+    margin-top: 20px;
+    
+}
+
+@media (max-width: 880px) {
+
+    .nav-container { display: none;
+    
+    }
+}
+@media (min-width: 880px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+
+.support-container{
+    height: 515px;
+    max-width:256px;
+    display: flex;
+    flex-direction: column;;
+    align-items: flex-start;
+    padding: 6px 10px;
+    justify-content: flex-end;
+    max-width: 230px;
+}
+.buttons{
+    width: 230px;
+    height: 30px;   
+    padding:9px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons:hover,  .buttons:focus{
+    background:  #F3F3F7;    
+}

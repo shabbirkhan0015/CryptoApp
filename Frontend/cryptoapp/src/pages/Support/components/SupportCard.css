@@ -1,0 +1,71 @@
+.contactdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+}
+.supportcontainer{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 16px 100px;
+}
+
+p{
+    color:#535D66;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.supportform{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: white;
+
+}
+.label{
+    color:black !important; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; 
+}
+.nameinput{
+    width: 230px;
+}
+.sendbtn{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    border-radius: 10px;
+    background: #EEEEF4;
+    background: #D8DDE2;
+    margin-bottom: 8px;
+    color:#171717;
+}
+.bookbtn{
+        color:#171717;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    border-radius: 10px;
+    background: #EEEEF4;
+}
+
+.sendbtn:hover, .bookbtn:hover{
+    background: #5F00D9 !important;
+    color: white;
+}
+
+@media screen and (max-width: 880px) {
+    .supportcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

@@ -1,0 +1,41 @@
+.pricesectioncontainer{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+.pricetop{
+    display: flex;
+    justify-content: flex-start;
+    gap:50px;
+}
+.currentPrice{
+    display: flex;
+    flex-direction: column;
+}
+.pricebutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+
+}
+.btnprice{
+    background-color: #5F00D9;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 6px;
+    width: 70px;
+}
+.pricetrend{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.currenttrent{
+    color: green;
+}
+

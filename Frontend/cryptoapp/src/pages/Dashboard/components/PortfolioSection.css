@@ -1,0 +1,108 @@
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    width: 960px;
+    margin: auto;
+    margin-top: 16px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size:15px;
+    border-radius: 20px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    height: 90px;
+  }
+  
+  .item2 {
+    grid-column: 1/ span 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    height: 180px;
+  }
+  
+  .item3 {
+    grid-column: 3 / span 2;
+    grid-row: 2  ;
+    height: 180px;
+  }
+  .item4 {
+    grid-column: 1 / span 2;
+    grid-row: 3 ;
+    height: 90px;
+  }
+  
+  .item5{
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    height: 90px;
+    background-image: url("/Users/shabbirkhan/Desktop/Shabbir//WebDev/cryptoapp/public/grid_bg.svg");
+    background-color: #5F00D9;
+  }
+  .button-div{
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .btn{
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    font-style: normal;
+    font-weight: 1000;
+    color: white;
+    padding: 10px 16px;
+    line-height: 18px;
+    background: #5F00D9;
+    border-radius: 10px;
+    
+  }
+.moneytitle{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    color:#535D66;
+}
+
+@media only screen and (max-width:660px) {
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .item2 {
+    grid-column: 1 / span 2;
+  }
+  .item3{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+  .item4{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+  .item5{
+    grid-column: 1 / span 2;
+    grid-row: 5;
+  }
+  .uppergrid{
+    overflow-x: hidden;
+    overflow-y:auto;
+    height: calc(100% - 64px);
+  }
+}
+  

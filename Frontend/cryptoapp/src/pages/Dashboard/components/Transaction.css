@@ -1,0 +1,42 @@
+.transactionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.transaction-heading{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color:#535D66;
+    margin: 0; 
+
+}
+.transbox{
+    display: flex;
+    width: 364px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3px 0;
+}
+.transbox h6{
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.transbox p{
+color:  #797E82;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+.viewall{
+    width: 100%;
+    border-radius: 10px;
+    background: #EEEEF4;
+    height: 30px;
+}

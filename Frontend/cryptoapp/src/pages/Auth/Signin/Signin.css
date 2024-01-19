@@ -1,0 +1,127 @@
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 153px 492px 261px 492px;
+    background: #FFF;
+    min-width: 456px;
+    padding: 24px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.12);
+}
+.containerforcenter
+{
+    min-height: 100vh;;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    gap: 40px;
+}
+.signup-container h1{
+    color:  #171717;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+.signup-container p{
+    margin-top: 16px;
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.signupform{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #FFF;
+    margin-top: 20px;
+    width: 100%;
+}
+.namecontainer{
+    display: flex;
+    width: 100%;
+}
+.name{
+    align-self: stretch;
+}
+.name input{
+    width: 195px;
+}
+input{
+    border-radius: 8px;
+    border: 1px solid var(--Black-Shades-Black-10, #EEEEF4);
+    background: var(--Black-Shades-White-100, #FFF);
+}
+input:focus{
+    border:1px solid #5F00D9 !important;
+}
+label{
+    color: var(--Primary-Colors-Black-100, #171717);
+
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px; /* 116.667% */
+}
+.checkboxdiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+input[type='checkbox'] {
+    display: inline;
+    margin-right: 8px; 
+    width: 30px;
+}
+span{
+    color: var(--Purple, #5F00D9);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+.loginbtn{
+    border-radius: 10px;
+    background: var(--Black-Shades-Black-20, #5F00D9);
+    color: #FFF;
+}
+.loginbtn:hover{
+    color: #5F00D9;
+    background: #FFF;
+    border: 1px solid #5F00D9;
+}
+.createaccontbtn1 {
+    border-radius: 10px;
+    border: 1px solid #5F00D9;
+    background: var(--Black-Shades-Black-20, #FFF);
+    color: #5F00D9;
+    width: 400px;
+    margin-top: -10px;
+    
+}
+.createaccontbtn1:hover{
+    background: #5F00D9;
+    color: #FFF;
+    
+}
+a{
+    color: var(--Purple, #5F00D9);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}
+form {
+    border: none;
+  }

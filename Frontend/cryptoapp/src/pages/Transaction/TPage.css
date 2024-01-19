@@ -1,0 +1,44 @@
+.exportcsvcontainer{
+    display: flex;
+    justify-content: flex-end;
+   
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.exportcsvbtn{
+    color:  #FFF;
+    font-family: Ubuntu;
+    height: 35px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 1500;
+    line-height: 18px; 
+    border-radius: 10px;
+    background:  #5F00D9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.containerT{
+    margin: 0 100px;  
+    background: white;
+    padding-top: 6px;
+    border-radius: 16px;
+}
+.search{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.seacrhinput{
+    width: 100%;
+    width: 200px;
+    height: 20px;
+}
+
+

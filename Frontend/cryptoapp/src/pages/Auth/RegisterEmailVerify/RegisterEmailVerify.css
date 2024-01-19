@@ -1,0 +1,49 @@
+.emailcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.emailcard{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    padding: 40px;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.emailcard h1{
+    color: var(--Primary-Colors-Black-100, #171717);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.emailcard p{
+    color: var(--Black-Shades-Black-60, #797E82);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+}
+.emailcard p span{
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+.emailcard button{
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    background: var(--Black-Shades-Black-10, #EEEEF4);
+    width: 100%;
+}

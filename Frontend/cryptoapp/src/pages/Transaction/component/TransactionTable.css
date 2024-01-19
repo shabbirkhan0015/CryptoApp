@@ -1,0 +1,17 @@
+.greytext{
+color: #797E82 !important;
+font-size: 12px;
+font-style: normal;
+font-weight: 600 !important;
+line-height: 14px; 
+}
+
+.darktext{
+    color: #171717;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight:600 !important;
+line-height: 18px; 
+
+}
